@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+       <div class="container" >
+        <div class="to-do" >
+            <h4>TO Do</h4>
+            <div class="tasks" ondragover=onDragOver(event) ondrop=onDrop(event,this)>
+                <div class="box" id="todo-1" draggable="true" ondragstart=onDragStart(event)  >Wash clothes</div>
+                <div class="box" id="todo-2" draggable="true" ondragstart=onDragStart(event)>Dry clothes</div>
+                <div class="box" id="todo-3" draggable="true" ondragstart=onDragStart(event)>Iron clothes</div>
+            </div>
+        </div>
+        <div class="done">
+            <h4>Done</h4>
+            <div class="done-items" ondragover=onDragOver(event) ondrop=onDrop(event,this)></div>
+        </div>
+       </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

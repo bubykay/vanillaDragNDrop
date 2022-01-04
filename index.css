@@ -1,0 +1,32 @@
+/* .main{
+    justify-content: center;
+    background-color: red;
+} */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+}
+
+.container>div{
+    flex-direction: row;
+    
+}
+.tasks{
+    width: 300px;
+    height: 400px;
+    border: solid;
+    /* background-color: green; */
+}
+
+.box{
+    /* width: 98%; */
+    border: solid;
+    padding: 10px 5px 10px 5px;
+}
+.done-items{
+    width: 300px;
+    height: 400px;
+    border: solid;
+}
